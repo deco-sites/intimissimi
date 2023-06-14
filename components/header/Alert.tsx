@@ -1,4 +1,5 @@
 import Slider from "$store/components/ui/Slider.tsx";
+import Anchor from "$store/components/ui/Anchor.tsx";
 import SliderJS from "$store/islands/SliderJS.tsx";
 import { useId } from "preact/hooks";
 
@@ -20,7 +21,14 @@ function Alert({ alerts = [], interval = 5 }: Props) {
         {alerts.map((alert, index) => (
           <Slider.Item index={index} class="carousel-item">
             <span class="text-sm text-secondary-content flex justify-center items-center w-screen h-[38px]">
-              {alert}
+              <Anchor
+                href="/"
+                class="flex-grow inline-flex items-center"
+                aria-label="Alertas"
+                target="_blank"
+              >
+                {alert}
+              </Anchor>
             </span>
           </Slider.Item>
         ))}

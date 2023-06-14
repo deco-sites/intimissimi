@@ -1,6 +1,7 @@
 import Searchbar from "$store/islands/HeaderSearchbar.tsx";
 import Buttons from "$store/islands/HeaderButton.tsx";
 import Icon from "$store/components/ui/Icon.tsx";
+import Anchor from "$store/components/ui/Anchor.tsx";
 import NavItem from "./NavItem.tsx";
 import { navbarHeight } from "./constants.ts";
 import type { INavItem } from "./NavItem.tsx";
@@ -19,14 +20,15 @@ function Navbar({ items, searchbar }: {
       >
         <Buttons variant="menu" />
 
-        <a
+        <Anchor
           href="/"
           class="flex-grow inline-flex items-center"
           style={{ minHeight: navbarHeight }}
           aria-label="Store logo"
+          target="_blank"
         >
           <Icon id="Logo" width={126} height={16} />
-        </a>
+        </Anchor>
 
         <div class="flex gap-1">
           <Buttons variant="search" />

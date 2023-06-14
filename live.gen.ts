@@ -201,8 +201,10 @@ const manifest = {
     "deco-sites/intimissimi/sections/Images/ShoppableBanner.tsx": $$$$$$$$4,
     "deco-sites/intimissimi/sections/Links/LinkTree.tsx": $$$$$$$$20,
     "deco-sites/intimissimi/sections/Links/Shortcuts.tsx": $$$$$$$$21,
-    "deco-sites/intimissimi/sections/Miscellaneous/CampaignTimer.tsx": $$$$$$$$16,
-    "deco-sites/intimissimi/sections/Miscellaneous/CookieConsent.tsx": $$$$$$$$17,
+    "deco-sites/intimissimi/sections/Miscellaneous/CampaignTimer.tsx":
+      $$$$$$$$16,
+    "deco-sites/intimissimi/sections/Miscellaneous/CookieConsent.tsx":
+      $$$$$$$$17,
     "deco-sites/intimissimi/sections/Newsletter/Newsletter.tsx": $$$$$$$$22,
     "deco-sites/intimissimi/sections/Product/ProductDetails.tsx": $$$$$$$$15,
     "deco-sites/intimissimi/sections/Product/ProductShelf.tsx": $$$$$$$$14,

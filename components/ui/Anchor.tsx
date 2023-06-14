@@ -12,7 +12,7 @@ export type Props = Omit<JSX.IntrinsicElements["a"], "loading"> & {
 const Anchor = forwardRef<HTMLAnchorElement, Props>(
   (
     { type = "a", class: _class = "", loading, disabled, children, ...props },
-    ref
+    ref,
   ) => (
     <a
       {...props}
@@ -23,7 +23,7 @@ const Anchor = forwardRef<HTMLAnchorElement, Props>(
     >
       {loading ? <span class="loading loading-spinner" /> : children}
     </a>
-  )
+  ),
 );
 
 export default Anchor;
